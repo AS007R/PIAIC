@@ -12,3 +12,5 @@ console.log("Uppercase: "+uppercaseName);
 const words: string[] = nam.split(" ");
 const titlecaseName: string = words.map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(" ");
 console.log("Titlecase: "+titlecaseName);
+
+//This Program transform the given name in to Uper Case, Lower Case and Tirle Case
