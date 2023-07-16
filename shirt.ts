@@ -1,7 +1,9 @@
-function make_shirt(size: string, message: string) {
+function make_shirt(size: string = "large", message: string = "I Love Typescript the most!") {
     console.log(`The shirt size is ${size}. The message printed on the shirt is: "${message}".`);
   }
   
-  // Call the function
-  make_shirt('M', 'World is for Asad subhani');
+  // Calling the function with default values.
+  make_shirt();
+  make_shirt('Medium');
+  make_shirt('Small', 'World is for Asad subhani');
   
