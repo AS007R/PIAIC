@@ -74,5 +74,5 @@ console.log(hasCar || hasBike);
 const fruits = ['apple', 'banana', 'orange'];
 console.log("Is 'apple' in the fruits array? I predict true.");
 console.log(fruits.includes('apple'));
-console.log("Is 'grape' not in the fruits array? I predict true.");
+console.log("Is 'grape' not in the fruits array? I predict true..");
 console.log(!fruits.includes('grape'));
